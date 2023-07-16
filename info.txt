@@ -1,0 +1,12 @@
+Basic setup: 
+- React
+- Three.js
+
+
+Font: 
+- https://github.com/mrdoob/three.js/blob/master/examples/webgl_modifier_curve_instanced.html
+- https://github.com/mrdoob/three.js/blob/master/examples/webgl_custom_attributes_lines.html
+
+Background: 
+- https://github.com/mrdoob/three.js/blob/master/examples/webgpu_compute.html
+- https://github.com/mrdoob/three.js/blob/master/examples/webgpu_particles.html
