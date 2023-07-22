@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from "react";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
@@ -15,7 +16,7 @@ const Hero = () => {
         </div>
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className="text-[#915eff]"> Viktoria</span>
+            Hi, I&apos;m <span className="text-[#915eff]"> Viktoria</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             I develop awesome websites, user <br className="sm:block hidden" />

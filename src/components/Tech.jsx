@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from "react";
 import { BallCanvas } from "./canvas";
 import { SectionWrapper } from "../higher-order-component";
@@ -15,4 +16,4 @@ const Tech = () => {
   );
 };
 
-export default Tech;
+export default SectionWrapper(Tech, "");
