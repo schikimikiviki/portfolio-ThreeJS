@@ -40,15 +40,21 @@ const About = () => {
         className="mt-4 text-secondary text-[18px] max-w-3xl leading-[30px]"
         variants={fadeIn("", "", 0.1, 1)}
       >
-        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-        eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-        voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-        clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
-        amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-        nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-        sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
-        rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
-        ipsum dolor sit amet.
+        I'm a passionate web developer with a love for technology and a keen eye
+        for creating awe-inspiring digital experiences. My journey into the tech
+        industry began with HTML, CSS, and JavaScript. What was just a hobby in
+        the beginning is now my biggest passion. Back then, I didn't quite trust
+        myself to actually work in IT. Today, I cannot imagine myself working
+        anywhere else. As I dived deeper into the world of coding, I embraced
+        the power of version control with Git and GitHub and learned everything
+        I could about client- and server-side JavaScript. To boost my
+        server-side skills, I also ventured into Node.js and Express.js,
+        crafting robust and scalable web applications backed by the dynamic
+        MongoDB database. My frontend process extends to crafting user
+        interfaces with React, breathing life into every pixel. Passionate about
+        staying at the forefront of innovation, I'm constantly eager to learn,
+        adapt, and push the boundaries of what's possible in the ever-evolving
+        tech landscape.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

@@ -36,16 +36,15 @@ const Navbar = () => {
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
         <Link
           to="/"
-          className="flex items-center gap-2"
+          className="flex items-center gap-1"
           onClick={() => {
             setActive("");
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
           <p className="text-white text-[18px] font-bold cursor-pointer flex ">
             Viktoria Bzdyk &nbsp;
-            <span className="sm:block hidden"> | Developer</span>
+            <span className="sm:block hidden"> | Junior Developer</span>
           </p>
         </Link>
 
@@ -80,7 +79,7 @@ const Navbar = () => {
               {navLinks.map((nav) => (
                 <li
                   key={nav.id}
-                  className={`font-poppins font-medium cursor-pointer text-[16px] ${
+                  className={` font-medium cursor-pointer text-[16px] ${
                     active === nav.title ? "text-white" : "text-secondary"
                   }`}
                   onClick={() => {

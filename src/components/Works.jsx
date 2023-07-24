@@ -71,15 +71,17 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-          sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
-          rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
-          ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
-          sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-          dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
-          et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
-          takimata sanctus est Lorem ipsum dolor sit amet.
+          Here, you'll find a collection of projects that showcase my journey as
+          a full-stack developer. Most of these creations were born during my
+          immersive full-stack developer course at Codecool, where I honed my
+          skills in HTML, CSS, JavaScript, React, Node.js, and more. While some
+          projects were crafted during my free time, others played a vital role
+          in my course success. Notably, one of these ventures became an
+          important tool that helped me ace a challenging test. My passion for
+          coding and enthusiasm for innovative solutions drive me to keep
+          pushing the boundaries of my abilities. Come explore these projects
+          with me and witness the evolution of a dedicated developer! You can
+          click the icons to get directly to the GitHub repo.
         </motion.p>
       </div>
 
