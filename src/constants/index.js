@@ -4,25 +4,21 @@ import {
   creator,
   web,
   javascript,
-  typescript,
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
   mongodb,
+  express,
   git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
+  easyname,
+  webtimism,
+  itsc,
   jobit,
   tripguide,
   threejs,
+  mysql,
 } from "../assets";
 
 export const navLinks = [
@@ -43,11 +39,11 @@ export const navLinks = [
 const services = [
   {
     title: "Frontend Developer - MERN Stack",
-    icon: web,
+    icon: backend,
   },
   {
     title: "Backend Developer - Java",
-    icon: mobile,
+    icon: backend,
   },
   {
     title: "Website Creator - WordPress",
@@ -69,17 +65,15 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "Express JS",
+    icon: express,
   },
+
   {
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
+
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -100,76 +94,60 @@ const technologies = [
     name: "git",
     icon: git,
   },
+
   {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
+    name: "MySQL",
+    icon: mysql,
   },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "IT Support Agent",
+    company_name: "easyname",
+    icon: easyname,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "April 2023 - now",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Providing efficient customer support via email and telephone channels.",
+      "Assisting users with various technical issues, including DNS, domains, hosting, web content, and CMS installation.",
+      "Collaborating effectively with cross-functional teams, including the Development department, to resolve complex challenges.",
+      "Delivering IT support services to users, ensuring prompt resolution of technical issues and maintaining seamless operations across the organization.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Backoffice Assistant in IT",
+    company_name: "IT-Systeme und Consulting GmbH",
+    icon: itsc,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "May 2020 - March 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Building and managing WordPress websites, ensuring their smooth functionality and up-to-date content.",
+      "Establishing and taking care of the company's social media presence, overseeing regular updates and engaging with the online community.",
+      "Facilitating seamless internal communications and managing back-office operations to enhance overall efficiency.",
+      "Strategically planning and executing marketing initiatives, including content creation and SEO optimization, to drive brand visibility and growth.",
+    ],
+  },
+  {
+    title: "Website Creator",
+    company_name: "Webtimism e.U.",
+    icon: webtimism,
+    iconBg: "#E6DEDD",
+    date: "April 2021 - December 2023",
+    points: [
+      "Designing and maintaining websites using WordPress, CSS, and HTML, ensuring a seamless user experience and attractive design.",
+      "Specializing in Search Engine Optimization (SEO) techniques to optimize website visibility and search engine rankings.",
+      "Creating mobile-friendly websites to cater to the growing number of mobile users and enhance accessibility across devices.",
+      "Implementing innovative strategies to enhance website performance and loading speed, optimizing the overall user experience and engagement.",
     ],
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Employee Madness",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows you to search and manage employees and their presence. Employee data can be added, saved and edited and everything is saved in a MongoDB database.",
     tags: [
       {
         name: "react",
@@ -180,28 +158,7 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
+        name: "express",
         color: "pink-text-gradient",
       },
     ],
@@ -209,20 +166,41 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Bootcamp API",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A fullstack-project with a focus on the API functionality in the backend. Bootcamps can be easily added, edited, and effectively managed for both logged-in users and the public.",
     tags: [
       {
-        name: "nextjs",
+        name: "api",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "expressjs",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "mongodb",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: jobit,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Mighty Text Adventure",
+    description:
+      "A fun beginner project in Java that allows the user to play a game in the console. The game is text-based and lets the user go through a map, collecting items and making decisions.",
+    tags: [
+      {
+        name: "java",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "unittesting",
+        color: "green-text-gradient",
+      },
+      {
+        name: "jvm",
         color: "pink-text-gradient",
       },
     ],
