@@ -1,8 +1,6 @@
 import logo from "./logo.png";
 import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
-import web from "./web.png";
+
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
@@ -19,10 +17,6 @@ import tailwind from "./tech/tailwind.png";
 import threejs from "./tech/threejs.png";
 import mysql from "./tech/mysql.webp";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
 import easyname from "./company/easyname.png";
 import itsc from "./company/itsc.png";
 import webtimism from "./company/handysmile.png";
@@ -33,9 +27,6 @@ import tripguide from "./tripguide.png";
 export {
   logo,
   backend,
-  creator,
-  mobile,
-  web,
   github,
   menu,
   close,
@@ -48,13 +39,9 @@ export {
   reactjs,
   tailwind,
   threejs,
-  meta,
-  shopify,
   easyname,
   webtimism,
-  starbucks,
   itsc,
-  tesla,
   jobit,
   tripguide,
   mysql,

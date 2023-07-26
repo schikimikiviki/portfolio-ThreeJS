@@ -1,8 +1,5 @@
 import {
-  mobile,
   backend,
-  creator,
-  web,
   javascript,
   html,
   css,
@@ -163,7 +160,7 @@ const projects = [
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/schikimikiviki/Employee-fullstack",
   },
   {
     name: "Bootcamp API",
@@ -184,7 +181,7 @@ const projects = [
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/schikimikiviki/Bootcamp-API",
   },
   {
     name: "Mighty Text Adventure",
@@ -205,7 +202,8 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link:
+      "https://github.com/schikimikiviki/mighty-text-adventure-java",
   },
 ];
 
