@@ -12,8 +12,8 @@ import {
   easyname,
   webtimism,
   itsc,
-  jobit,
-  tripguide,
+  employeeMadness,
+  mightyText,
   threejs,
   mysql,
 } from "../assets";
@@ -159,7 +159,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: employeeMadness,
     source_code_link: "https://github.com/schikimikiviki/Employee-fullstack",
   },
   {
@@ -180,7 +180,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: employeeMadness,
     source_code_link: "https://github.com/schikimikiviki/Bootcamp-API",
   },
   {
@@ -201,7 +201,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: mightyText,
     source_code_link:
       "https://github.com/schikimikiviki/mighty-text-adventure-java",
   },

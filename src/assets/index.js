@@ -21,8 +21,8 @@ import easyname from "./company/easyname.png";
 import itsc from "./company/itsc.png";
 import webtimism from "./company/handysmile.png";
 
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import mightyText from "./MightyTextAdventure.png";
+import employeeMadness from "./EmployeeMadness.png";
 
 export {
   logo,
@@ -42,8 +42,8 @@ export {
   easyname,
   webtimism,
   itsc,
-  jobit,
-  tripguide,
   mysql,
   express,
+  mightyText,
+  employeeMadness,
 };
