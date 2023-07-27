@@ -6,6 +6,8 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../higher-order-component";
 import { slideIn } from "../utils/motion";
 
+import AlienCanvas from "./Alien";
+
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({ name: "", email: "", message: "" });
@@ -108,7 +110,8 @@ const Contact = () => {
         variants={slideIn("right", "tween", 0.2, 1)}
         className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px] "
       >
-        <EarthCanvas />
+        {/* <EarthCanvas /> */}
+        <AlienCanvas />
       </motion.div>
     </div>
   );

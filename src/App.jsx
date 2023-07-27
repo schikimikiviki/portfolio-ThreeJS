@@ -9,6 +9,7 @@ import {
   Works,
   StarsCanvas,
 } from "./components";
+import Alien from "./components/Alien";
 
 const App = () => {
   return (
