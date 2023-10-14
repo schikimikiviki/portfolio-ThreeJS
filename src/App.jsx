@@ -8,6 +8,7 @@ import {
   Tech,
   Works,
   StarsCanvas,
+  Downloads,
 } from "./components";
 import Alien from "./components/Alien";
 
@@ -28,6 +29,7 @@ const App = () => {
           <Contact />
           <StarsCanvas />
         </div>
+        <Downloads />
       </div>
     </BrowserRouter>
   );
