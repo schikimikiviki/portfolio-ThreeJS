@@ -21,8 +21,12 @@ import easyname from "./company/easyname.png";
 import itsc from "./company/itsc.png";
 import webtimism from "./company/handysmile.png";
 
-import mightyText from "./MightyTextAdventure.png";
+
+import devcamperBootcamp from "./devcamper.png";
 import employeeMadness from "./EmployeeMadness.png";
+import coolNote from "./coolnote.png";
+
+import folder from "./downloads/folder.png";
 
 export {
   logo,
@@ -44,6 +48,8 @@ export {
   itsc,
   mysql,
   express,
-  mightyText,
   employeeMadness,
+  coolNote,
+  devcamperBootcamp,
+  folder
 };

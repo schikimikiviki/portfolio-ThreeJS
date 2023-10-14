@@ -1,13 +1,15 @@
 import React from "react";
 import { SectionWrapper } from "../higher-order-component";
+import { folder } from "../assets/index.js";
 
 const Downloads = () => {
   const handleDownload = () => {
-    const url = "/path-to-your-file/filename.ext";
-    const link = document.createElement("a");
-    link.href = url;
-    link.download = "downloaded-filename.ext";
-    link.click();
+    // const url = "/path-to-your-file/filename.ext";
+    // const link = document.createElement("a");
+    // link.href = url;
+    // link.download = "downloaded-filename.ext";
+    // link.click();
+    console.log("hihi");
   };
 
   return (
@@ -15,11 +17,7 @@ const Downloads = () => {
       <h1>Downloads</h1>
 
       <div className="download-button" onClick={handleDownload}>
-        <img
-          src="/path-to-your-image.png"
-          alt="Download"
-          className="download-image"
-        />
+        <img src={folder} alt="Download" className="download-image" />
       </div>
     </div>
   );
