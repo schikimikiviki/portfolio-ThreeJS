@@ -1,6 +1,7 @@
 import React from "react";
 import { SectionWrapper } from "../higher-order-component";
 import { folder } from "../assets/index.js";
+import { files } from "../constants/index.js";
 import { styles } from "../styles";
 
 const Downloads = () => {
@@ -17,9 +18,16 @@ const Downloads = () => {
     <>
       <h4 className={styles.sectionSmallText}>Downloads.</h4>
       <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
-        <div className="download-button" onClick={handleDownload}>
-          <img src={folder} alt="Download" className="download-image" />
-        </div>
+        {files.map((file) => (
+          <div>
+            <div className="download-button" onClick={handleDownload}>
+              <img src={folder} alt="Download" className="download-image" />
+            </div>
+            <div className="w-28 h-28" key={file.name}>
+              {file.name}
+            </div>
+          </div>
+        ))}
       </div>
     </>
   );

@@ -20,7 +20,9 @@ import {
   postgre,
   phpmyadmin,
   devcamperBootcamp,
-  coolNote
+  coolNote,
+  cvGerman,
+  cvEnglish
 } from "../assets";
 
 export const navLinks = [
@@ -121,7 +123,16 @@ const technologies = [
 
 ];
 
-
+const files = [
+  {
+    name: "CV German",
+    file: cvGerman
+  }, 
+  {
+    name: "CV English",
+    file: cvEnglish
+  }
+]
 
 const experiences = [
   {
@@ -230,4 +241,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, projects };
+export { services, technologies, experiences, projects, files };
