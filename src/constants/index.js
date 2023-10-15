@@ -77,10 +77,10 @@ const technologies = [
     icon: reactjs,
   },
 
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
+  // {
+  //   name: "Tailwind CSS",
+  //   icon: tailwind,
+  // },
   {
     name: "Node JS",
     icon: nodejs,
@@ -93,10 +93,10 @@ const technologies = [
     name: "Three JS",
     icon: threejs,
   },
-  {
-    name: "git",
-    icon: git,
-  },
+  // {
+  //   name: "git",
+  //   icon: git,
+  // },
   {
     name: "spring", 
     icon: spring
@@ -105,18 +105,18 @@ const technologies = [
     name:"wordpress", 
     icon: wordpress
   },
-  // {
-  //   name:"tomcat",
-  //   icon: tomcat
-  // },
-  // {
-  //   name: "postgresql", 
-  //   icon: postgre
-  // },
-  //   {
-  //   name: "phpmyadmin", 
-  //   icon: phpmyadmin
-  // }
+  {
+    name:"tomcat",
+    icon: tomcat
+  },
+  {
+    name: "postgresql", 
+    icon: postgre
+  },
+    {
+    name: "phpmyadmin", 
+    icon: phpmyadmin
+  }
 
 
 ];
