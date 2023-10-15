@@ -37,24 +37,21 @@ const About = () => {
       </motion.div>
 
       <motion.p
-        className="mt-4 text-secondary text-[18px] max-w-3xl leading-[30px]"
+        className="mt-4 text-secondary text-[18px] max-w-3xl leading-[30px] text-justify"
         variants={fadeIn("", "", 0.1, 1)}
       >
-        I'm a passionate web developer with a love for technology and a keen eye
-        for creating awe-inspiring digital experiences. My journey into the tech
-        industry began with HTML, CSS, and JavaScript. What was just a hobby in
-        the beginning is now my biggest passion. Back then, I didn't quite trust
-        myself to actually work in IT. Today, I cannot imagine myself working
-        anywhere else. As I dived deeper into the world of coding, I embraced
-        the power of version control with Git and GitHub and learned everything
-        I could about client- and server-side JavaScript. To boost my
-        server-side skills, I also ventured into Node.js and Express.js,
-        crafting robust and scalable web applications backed by the dynamic
-        MongoDB database. My frontend process extends to crafting user
-        interfaces with React, breathing life into every pixel. Passionate about
-        staying at the forefront of innovation, I'm constantly eager to learn,
-        adapt, and push the boundaries of what's possible in the ever-evolving
-        tech landscape.
+        I'm a web developer with a strong tech obsession and a knack for
+        creating mind-blowing digital experiences. My tech journey started with
+        HTML, CSS, and JavaScript, originally just a hobby, but now it's my
+        burning passion. I used to doubt if I could really make it in the IT
+        world, but now I can't see myself anywhere else. As I delved deeper into
+        coding, I discovered the magic of Git and GitHub for version control,
+        and I devoured everything I could about client- and server-side
+        JavaScript. To level up my server-side skills, I explored Node.js and
+        Express.js, building robust web apps powered by the dynamic MongoDB
+        database. On the frontend, I enjoy crafting user interfaces with React
+        to bring every pixel to life. I'm always eager to learn and adapt,
+        constantly pushing the boundaries in the ever-evolving tech landscape.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

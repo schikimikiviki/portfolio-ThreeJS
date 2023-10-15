@@ -69,19 +69,20 @@ const Works = () => {
       <div className="w-full flex">
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
+          className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px] text-justify"
         >
-          Here, you'll find a collection of projects that showcase my journey as
-          a full-stack developer. Most of these creations were born during my
-          immersive full-stack developer course at Codecool, where I honed my
-          skills in HTML, CSS, JavaScript, React, Node.js, and more. While some
-          projects were crafted during my free time, others played a vital role
-          in my course success. Notably, one of these ventures became an
-          important tool that helped me ace a challenging test. My passion for
-          coding and enthusiasm for innovative solutions drive me to keep
-          pushing the boundaries of my abilities. Come explore these projects
-          with me and witness the evolution of a dedicated developer! You can
-          click the icons to get directly to the GitHub repo.
+          Welcome to my portfolio! Here, you'll find a bunch of cool projects
+          that I've worked on during my journey as a full-stack developer. I
+          created most of these gems while I was immersed in my full-stack
+          developer course at Codecool. During the course, I got skilled in
+          things like HTML, CSS, JavaScript, React, Node.js, and a whole lot
+          more. Some of these projects were just me having fun in my free time,
+          while others were part of my course assignments. Fun fact: one of
+          these projects (Employee Madness) helped me ace a tough test. I
+          absolutely love coding, and I'm always super excited to find new and
+          innovative solutions. Join me on this journey and check out these
+          projects. You can even click on the icons to jump straight to the
+          GitHub repo. Enjoy!
         </motion.p>
       </div>
 

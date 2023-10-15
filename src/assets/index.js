@@ -15,7 +15,11 @@ import express from "./tech/express.png";
 import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
 import threejs from "./tech/threejs.png";
-import mysql from "./tech/mysql.webp";
+import spring from "./tech/spring.png"
+import wordpress from "./tech/wordpress.png"
+import tomcat from "./tech/tomcat.png"
+import postgre from "./tech/postgre.png"
+import phpmyadmin from "./tech/phpmyadmin.png"
 
 import easyname from "./company/easyname.png";
 import itsc from "./company/itsc.png";
@@ -43,11 +47,15 @@ export {
   reactjs,
   tailwind,
   threejs,
+  spring,
   easyname,
   webtimism,
   itsc,
-  mysql,
   express,
+  wordpress,
+  tomcat,
+  postgre,
+  phpmyadmin,
   employeeMadness,
   coolNote,
   devcamperBootcamp,

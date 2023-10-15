@@ -14,7 +14,11 @@ import {
   itsc,
   employeeMadness,
   threejs,
-  mysql,
+  spring,
+  wordpress,
+  tomcat,
+  postgre,
+  phpmyadmin,
   devcamperBootcamp,
   coolNote
 } from "../assets";
@@ -47,6 +51,7 @@ const services = [
     title: "Website Creator - WordPress",
     icon: backend,
   },
+  
 ];
 
 const technologies = [
@@ -92,12 +97,31 @@ const technologies = [
     name: "git",
     icon: git,
   },
-
   {
-    name: "MySQL",
-    icon: mysql,
+    name: "spring", 
+    icon: spring
+  }, 
+  {
+    name:"wordpress", 
+    icon: wordpress
   },
+  // {
+  //   name:"tomcat",
+  //   icon: tomcat
+  // },
+  // {
+  //   name: "postgresql", 
+  //   icon: postgre
+  // },
+  //   {
+  //   name: "phpmyadmin", 
+  //   icon: phpmyadmin
+  // }
+
+
 ];
+
+
 
 const experiences = [
   {
