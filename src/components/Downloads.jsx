@@ -15,7 +15,9 @@ const Downloads = () => {
   return (
     <>
       <h4 className={styles.sectionSmallText}>Downloads.</h4>
-      <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
+
+      <br />
+      <div className="xl:mt-12 xl:flex-row  flex gap-10 overflow-hidden">
         {files.map((file) => (
           <div key={file.name}>
             <div

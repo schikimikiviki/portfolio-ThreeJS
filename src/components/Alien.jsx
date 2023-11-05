@@ -33,7 +33,7 @@ const Alien = () => {
       <pointLight intensity={1} />
       <primitive
         object={gltf.scene}
-        scale={5}
+        scale={4}
         position={[0.6, -3, 0.08]}
         // rotation={[-0.3, -0.5, 0]}
       />
