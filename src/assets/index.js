@@ -31,8 +31,8 @@ import employeeMadness from "./EmployeeMadness.png";
 import coolNote from "./coolnote.png";
 
 import folder from "./downloads/folder.png";
-import cvGerman from "./downloads/test.pdf";
-import cvEnglish from "./downloads/test.pdf";
+import cvGerman from "./downloads/vita.pdf";
+import cvEnglish from "./downloads/vita-en.pdf";
 
 export {
   logo,
@@ -61,7 +61,7 @@ export {
   employeeMadness,
   coolNote,
   devcamperBootcamp,
-  folder,
-  cvEnglish,
+  folder, 
+  cvEnglish, 
   cvGerman
 };

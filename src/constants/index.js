@@ -126,11 +126,11 @@ const technologies = [
 const files = [
   {
     name: "CV German",
-    file: cvGerman
+    url: cvGerman
   }, 
   {
     name: "CV English",
-    file: cvEnglish
+    url: cvEnglish
   }
 ]
 
