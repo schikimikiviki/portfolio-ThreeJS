@@ -40,24 +40,33 @@ const About = () => {
         className="mt-4 text-secondary text-[18px] max-w-3xl leading-[30px] text-justify"
         variants={fadeIn("", "", 0.1, 1)}
       >
-        I'm a web developer with a strong tech obsession and a knack for
-        creating mind-blowing digital experiences. My tech journey started with
-        HTML, CSS, and JavaScript, originally just a hobby, but now it's my
-        burning passion. I used to doubt if I could really make it in the IT
-        world, but now I can't see myself anywhere else. As I delved deeper into
-        coding, I discovered the magic of Git and GitHub for version control,
-        and I devoured everything I could about client- and server-side
-        JavaScript. To level up my server-side skills, I explored Node.js and
-        Express.js, building robust web apps powered by the dynamic MongoDB
-        database. On the frontend, I enjoy crafting user interfaces with React
-        to bring every pixel to life. I'm always eager to learn and adapt,
-        constantly pushing the boundaries in the ever-evolving tech landscape.
+        I'm a web developer with a knack for tech and creating digital
+        experiences. My tech journey started with HTML, CSS, and JavaScript.
+        What was a just a hobby at first, turned into a real passion. I used to
+        doubt if I could really make it in the IT world, but now I cannot see
+        myself anywhere else. As I dived deeper into coding, I discovered the
+        efficiency of Git and GitHub for version control, and I learned a lot
+        about client- and server-side JavaScript. To level up my server-side
+        skills, I explored Node.js and Express.js, building robust web apps
+        powered by the dynamic MongoDB database. On the frontend, I enjoy
+        crafting user interfaces with React to bring every pixel to life. I'm
+        always eager to learn and adapt, constantly pushing my own boundaries.
       </motion.p>
-
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
+      </div>
+      <div>
+        <h2>some personal facts</h2>
+        <ul>
+          <li>i'm a pet lover - my spider is called Ruby. </li>
+          <li>i'm in a committed relationship with my self-built PC.</li>
+          <li>
+            besides coding, I enjoy creating the funkiest Spotify playlists and
+            drinking bloody marys.
+          </li>
+        </ul>
       </div>
     </>
   );

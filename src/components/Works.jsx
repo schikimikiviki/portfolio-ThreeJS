@@ -6,6 +6,7 @@ import { github } from "../assets";
 import { SectionWrapper } from "../higher-order-component";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
+import { initializeAnimation } from "../animation.js";
 
 const ProjectCard = ({
   index,
@@ -16,45 +17,58 @@ const ProjectCard = ({
   source_code_link,
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
-      <Tilt
-        options={{ max: 45, scale: 1, speed: 450 }}
-        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
-      >
-        <div className="relative w-full h-[230px]">
-          <img
-            src={image}
-            alt={image}
-            className="w-full h-full object-cover rounded-2xl "
+    <>
+      {/* <canvas id="canvas"></canvas>
+      <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+        <filter id="goo">
+          <feGaussianBlur in="SourceGraphic" stdDeviation="7" result="blur" />
+          <feColorMatrix
+            in="blur"
+            mode="matrix"
+            values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 60 -9"
           />
-          <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
-            <div
-              onClick={() => window.open(source_code_link, "_blank")}
-              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
-            >
-              <img
-                src={github}
-                alt={github}
-                className="w-1/2 h-1/2 object-contain"
-              />
+        </filter>
+      </svg> */}
+      <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+        <Tilt
+          options={{ max: 45, scale: 1, speed: 450 }}
+          className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
+        >
+          <div className="relative w-full h-[230px]">
+            <img
+              src={image}
+              alt={image}
+              className="w-full h-full object-cover rounded-2xl "
+            />
+            <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
+              <div
+                onClick={() => window.open(source_code_link, "_blank")}
+                className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+              >
+                <img
+                  src={github}
+                  alt={github}
+                  className="w-1/2 h-1/2 object-contain"
+                />
+              </div>
             </div>
           </div>
-        </div>
 
-        <div className="mt-5">
-          <h3 className="text-white font-bold text-[24px]">{name}</h3>
-          <p className="mt-2 text-secondary text-[14px]">{description}</p>
+          <div className="mt-5">
+            <h3 className="text-white font-bold text-[24px]">{name}</h3>
+            <p className="mt-2 text-secondary text-[14px]">{description}</p>
 
-          <div className="mt-4 flex flex-wrap gap-2">
-            {tags.map((tag) => (
-              <p key={tag.name} className={`text-[14px] ${tag.color}`}>
-                #{tag.name}
-              </p>
-            ))}
+            <div className="mt-4 flex flex-wrap gap-2">
+              {tags.map((tag) => (
+                <p key={tag.name} className={`text-[14px] ${tag.color}`}>
+                  #{tag.name}
+                </p>
+              ))}
+            </div>
           </div>
-        </div>
-      </Tilt>
-    </motion.div>
+        </Tilt>
+      </motion.div>
+    </>
   );
 };
 
@@ -78,11 +92,9 @@ const Works = () => {
           things like HTML, CSS, JavaScript, React, Node.js, and a whole lot
           more. Some of these projects were just me having fun in my free time,
           while others were part of my course assignments. Fun fact: one of
-          these projects (Employee Madness) helped me ace a tough test. I
-          absolutely love coding, and I'm always super excited to find new and
-          innovative solutions. Join me on this journey and check out these
-          projects. You can even click on the icons to jump straight to the
-          GitHub repo. Enjoy!
+          these projects (Employee Madness) helped me ace a tough test. You can
+          check out these projects by clicking on the icons to jump straight to
+          the GitHub repo. Enjoy!
         </motion.p>
       </div>
 

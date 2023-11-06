@@ -144,7 +144,7 @@ const experiences = [
     points: [
       "Providing customer support via email and telephone channels.",
       "Assisting users with various technical issues, including DNS, domains, hosting, e-mails, and CMS installation.",
-      "Collaborating with cross-functional teams, including the development department to resolve complex challenges.",
+      "Collaborating with other teams, including the development department to resolve complex customer issues.",
     ],
   },
   {
