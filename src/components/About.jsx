@@ -40,17 +40,16 @@ const About = () => {
         className="mt-4 text-secondary text-[18px] max-w-3xl leading-[30px] text-justify"
         variants={fadeIn("", "", 0.1, 1)}
       >
-        I'm a web developer with a knack for tech and creating digital
-        experiences. My tech journey started with HTML, CSS, and JavaScript.
-        What was a just a hobby at first, turned into a real passion. I used to
-        doubt if I could really make it in the IT world, but now I cannot see
-        myself anywhere else. As I dived deeper into coding, I discovered the
+        I got into tech by playing around with HTML, CSS, and JavaScript. It
+        started as a hobby but quickly became my passion. At first, I wasn't
+        sure if I could make it in the IT world, but now I can't imagine doing
+        anything else. As I dived deeper into coding, I discovered the
         efficiency of Git and GitHub for version control, and I learned a lot
         about client- and server-side JavaScript. To level up my server-side
         skills, I explored Node.js and Express.js, building robust web apps
-        powered by the dynamic MongoDB database. On the frontend, I enjoy
-        crafting user interfaces with React to bring every pixel to life. I'm
-        always eager to learn and adapt, constantly pushing my own boundaries.
+        powered by the MongoDB database. On the frontend, I enjoy creating user
+        interfaces with React. I'm always eager to learn and adapt, constantly
+        pushing my own boundaries.
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (

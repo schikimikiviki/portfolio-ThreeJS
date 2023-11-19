@@ -48,7 +48,7 @@ const Navbar = () => {
           </p>
         </Link>
 
-        <ul className="list-none hidden sm:flex flex-row gap-10">
+        {/* <ul className="list-none hidden sm:flex flex-row gap-10">
           {navLinks.map((nav) => (
             <span className="nav-bar-title" key={nav.id}>
               <li
@@ -61,7 +61,7 @@ const Navbar = () => {
               </li>
             </span>
           ))}
-        </ul>
+        </ul> */}
 
         <div className="sm:hidden flex flex-1 justify-end items-center">
           <img

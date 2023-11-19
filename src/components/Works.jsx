@@ -84,16 +84,15 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px] text-justify"
         >
-          Welcome to my portfolio! Here, you'll find a bunch of cool projects
-          that I've worked on during my journey as a full-stack developer. I
-          created most of these gems while I was immersed in my full-stack
-          developer course at Codecool. During the course, I got skilled in
-          things like HTML, CSS, JavaScript, React, Node.js, and a whole lot
-          more. Some of these projects were just me having fun in my free time,
-          while others were part of my course assignments. Fun fact: one of
-          these projects (Employee Madness) helped me ace a tough test. You can
-          check out these projects by clicking on the icons to jump straight to
-          the GitHub repo. Enjoy!
+          This is my portfolio, where I've put together some cool projects from
+          my journey as a full-stack developer. I worked on most of these during
+          my full-stack developer course at Codecool. In the course, I learned
+          things like HTML, CSS, JavaScript, React, Node.js, and more. Some of
+          these projects were just for fun in my free time, while others were
+          part of my assignments. Fun fact: one of these projects (Employee
+          Madness), actually helped me do well on a tough test. You can check
+          out these projects by clicking on the icons to go straight to the
+          GitHub repo. Enjoy!
         </motion.p>
       </div>
 

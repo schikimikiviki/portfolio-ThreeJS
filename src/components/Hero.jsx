@@ -21,9 +21,9 @@ const Hero = () => {
           <p
             className={`${styles.heroSubText} mt-2 text-white-100 text-justify`}
           >
-            I'm a junior developer and I cannot wait to conquer the world with
-            my code. I am always looking for challenges and I enjoy diving into
-            new technologies and making them work for me.
+            I'm a junior developer based in Vienna. I'm always looking for
+            challenges and I enjoy diving into new technologies and making them
+            work for me.
           </p>
         </div>
       </div>
