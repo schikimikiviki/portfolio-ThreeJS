@@ -9,7 +9,12 @@ import AlienCanvas from "./Alien";
 
 const Contact = () => {
   const formRef = useRef();
-  const [form, setForm] = useState({ name: "", email: "", message: "" });
+  const [form, setForm] = useState({
+    name: "",
+    email: "",
+    message: "",
+    honeypot: "",
+  });
   const [loading, setLoading] = useState(false);
 
   const handleChange = (e) => {
@@ -17,7 +22,13 @@ const Contact = () => {
     setForm({ ...form, [name]: value });
   };
   const handleSubmit = (e) => {
-    e.preventDefault;
+    e.preventDefault();
+
+    if (form.honeypot) {
+      console.log("Potential spam detected");
+      return;
+    }
+
     setLoading(true);
     emailjs
       .send(
@@ -95,6 +106,15 @@ const Contact = () => {
               onChange={handleChange}
               placeholder="What do you want to say?"
               className="bg-secondary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium"
+            />
+          </label>
+          <label>
+            <input
+              type="text"
+              name="honeypot"
+              value={form.honeypot}
+              onChange={handleChange}
+              style={{ display: "none" }}
             />
           </label>
           <button

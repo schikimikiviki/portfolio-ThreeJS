@@ -179,7 +179,7 @@ const projects = [
   {
     name: "Intimate Code",
     description:
-      "Web app that allows you to buy lingerie online. Admins can add new products, users can save items to their wishlist.",
+      "Web app that allows you to buy lingerie online. Admins can add new products, users can save items to their wishlist. Products are saved in a postgre SQL database.",
     tags: [
       {
         name: "react",
