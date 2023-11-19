@@ -142,9 +142,9 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "April 2023 - now",
     points: [
-      "Providing customer support via email and telephone channels.",
+      "Providing customer support via email and telephone.",
       "Assisting users with various technical issues, including DNS, domains, hosting, e-mails, and CMS installation.",
-      "Collaborating with other teams, including the development department to resolve complex customer issues.",
+      "Collaborating with other teams, including the development department to resolve customer issues.",
     ],
   },
   {

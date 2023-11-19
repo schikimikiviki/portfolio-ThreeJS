@@ -23,8 +23,7 @@ const Hero = () => {
           >
             I'm a junior developer and I cannot wait to conquer the world with
             my code. I am always looking for challenges and I enjoy diving into
-            new technologies and making them work for me. Or as the WordPress
-            developers put it - Code is poetry :)
+            new technologies and making them work for me.
           </p>
         </div>
       </div>

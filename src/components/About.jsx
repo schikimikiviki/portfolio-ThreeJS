@@ -58,8 +58,8 @@ const About = () => {
         ))}
       </div>
       <div>
-        <h2>some personal facts</h2>
-        <ul>
+        <h2 className="personalFactsHeader">some personal facts</h2>
+        <ul className="styledList">
           <li>i'm a pet lover - my spider is called Ruby. </li>
           <li>i'm in a committed relationship with my self-built PC.</li>
           <li>

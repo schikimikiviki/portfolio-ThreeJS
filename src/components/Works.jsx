@@ -6,7 +6,6 @@ import { github } from "../assets";
 import { SectionWrapper } from "../higher-order-component";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
-import { initializeAnimation } from "../animation.js";
 
 const ProjectCard = ({
   index,
