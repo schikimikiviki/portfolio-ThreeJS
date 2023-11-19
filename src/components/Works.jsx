@@ -89,10 +89,8 @@ const Works = () => {
           my full-stack developer course at Codecool. In the course, I learned
           things like HTML, CSS, JavaScript, React, Node.js, and more. Some of
           these projects were just for fun in my free time, while others were
-          part of my assignments. Fun fact: one of these projects (Employee
-          Madness), actually helped me do well on a tough test. You can check
-          out these projects by clicking on the icons to go straight to the
-          GitHub repo. Enjoy!
+          part of my assignments. You can check out these projects by clicking
+          on the icons to go straight to the GitHub repo. Enjoy!
         </motion.p>
       </div>
 

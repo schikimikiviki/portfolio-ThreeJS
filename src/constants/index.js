@@ -13,6 +13,7 @@ import {
   webtimism,
   itsc,
   employeeMadness,
+  initimateCode,
   threejs,
   spring,
   wordpress,
@@ -176,25 +177,25 @@ const experiences = [
 
 const projects = [
   {
-    name: "Employee Madness",
+    name: "Intimate Code",
     description:
-      "Web app that allows you to search and manage employees and their presence. Employee data can be added, saved and edited and everything is saved in a MongoDB database.",
+      "Web app that allows you to buy lingerie online. Admins can add new products, users can save items to their wishlist.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "spring-boot",
         color: "green-text-gradient",
       },
       {
-        name: "express",
+        name: "postgreSQL",
         color: "pink-text-gradient",
       },
     ],
-    image: employeeMadness,
-    source_code_link: "https://github.com/schikimikiviki/Employee-fullstack",
+    image: initimateCode,
+    source_code_link: "https://github.com/schikimikiviki/intimateCode",
   },
   {
     name: "Bootcamp API",

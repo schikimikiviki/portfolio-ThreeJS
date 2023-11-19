@@ -27,6 +27,7 @@ import webtimism from "./company/handysmile.png";
 
 
 import devcamperBootcamp from "./devcamper.png";
+import initimateCode from "./intimatecode.png"
 import employeeMadness from "./EmployeeMadness.png";
 import coolNote from "./coolnote.png";
 
@@ -62,6 +63,7 @@ export {
   coolNote,
   devcamperBootcamp,
   folder, 
+  initimateCode,
   cvEnglish, 
   cvGerman
 };
