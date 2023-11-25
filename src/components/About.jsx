@@ -56,7 +56,7 @@ const About = () => {
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
       </div>
-      <div>
+      {/* <div>
         <h2 className="personalFactsHeader">some personal facts</h2>
         <ul className="styledList">
           <li>i'm a pet lover - my spider is called Ruby. </li>
@@ -66,7 +66,7 @@ const About = () => {
             drinking bloody marys.
           </li>
         </ul>
-      </div>
+      </div> */}
     </>
   );
 };

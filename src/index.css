@@ -170,13 +170,13 @@
 
 .personalFactsHeader {
   font-size: 1.5rem; 
-  margin-top: 50px; 
+  
 }
 
 .styledList {
   list-style: none;
   padding: 0;
-  margin-bottom: -50px;
+  margin-bottom: 50px;
 }
 
 .styledList li {

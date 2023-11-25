@@ -23,7 +23,7 @@ const Hero = () => {
           >
             I'm a junior developer based in Vienna. I'm always looking for
             challenges and I enjoy diving into new technologies and making them
-            work for me.
+            work for me, my team and my organization.
           </p>
         </div>
       </div>
