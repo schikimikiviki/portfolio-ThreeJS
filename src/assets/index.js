@@ -1,39 +1,38 @@
-import logo from "./logo.png";
-import backend from "./backend.png";
+import logo from './logo.png';
+import backend from './backend.png';
 
-import github from "./github.png";
-import menu from "./menu.svg";
-import close from "./close.svg";
+import github from './github.png';
+import menu from './menu.svg';
+import close from './close.svg';
 
-import css from "./tech/css.png";
-import git from "./tech/git.png";
-import html from "./tech/html.png";
-import javascript from "./tech/javascript.png";
-import mongodb from "./tech/mongodb.png";
-import nodejs from "./tech/nodejs.png";
-import express from "./tech/express.png";
-import reactjs from "./tech/reactjs.png";
-import tailwind from "./tech/tailwind.png";
-import threejs from "./tech/threejs.png";
-import spring from "./tech/spring.png"
-import wordpress from "./tech/wordpress.png"
-import tomcat from "./tech/tomcat.png"
-import postgre from "./tech/postgre.png"
-import phpmyadmin from "./tech/phpmyadmin.png"
+import css from './tech/css.png';
+import git from './tech/git.png';
+import html from './tech/html.png';
+import javascript from './tech/javascript.png';
+import mongodb from './tech/mongodb.png';
+import nodejs from './tech/nodejs.png';
+import express from './tech/express.png';
+import reactjs from './tech/reactjs.png';
+import tailwind from './tech/tailwind.png';
+import threejs from './tech/threejs.png';
+import spring from './tech/spring.png';
+import wordpress from './tech/wordpress.png';
+import tomcat from './tech/tomcat.png';
+import postgre from './tech/postgre.png';
+import phpmyadmin from './tech/phpmyadmin.png';
 
-import easyname from "./company/easyname.png";
-import itsc from "./company/itsc.png";
-import webtimism from "./company/handysmile.png";
+import easyname from './company/easyname.png';
+import itsc from './company/itsc.png';
+import webtimism from './company/handysmile.png';
+import nu from './company/nu.png';
 
+import devcamperBootcamp from './devcamper.png';
+import totu from './totu.png';
+import coolNote from './coolnote.png';
 
-import devcamperBootcamp from "./devcamper.png";
-import initimateCode from "./intimatecode.png"
-import employeeMadness from "./EmployeeMadness.png";
-import coolNote from "./coolnote.png";
-
-import folder from "./downloads/folder.png";
-import cvGerman from "./downloads/vita.pdf";
-import cvEnglish from "./downloads/vita-en.pdf";
+import folder from './downloads/folder.png';
+import cvGerman from './downloads/vita.pdf';
+import cvEnglish from './downloads/vita-en.pdf';
 
 export {
   logo,
@@ -59,11 +58,11 @@ export {
   tomcat,
   postgre,
   phpmyadmin,
-  employeeMadness,
   coolNote,
   devcamperBootcamp,
-  folder, 
-  initimateCode,
-  cvEnglish, 
-  cvGerman
+  folder,
+  totu,
+  cvEnglish,
+  cvGerman,
+  nu,
 };

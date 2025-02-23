@@ -1,25 +1,25 @@
-import React from "react";
-import { Tilt } from "react-tilt";
-import { motion } from "framer-motion";
-import { styles } from "../styles";
-import { services } from "../constants";
-import { fadeIn, textVariant } from "../utils/motion";
-import { SectionWrapper } from "../higher-order-component";
+import React from 'react';
+import { Tilt } from 'react-tilt';
+import { motion } from 'framer-motion';
+import { styles } from '../styles';
+
+import { fadeIn, textVariant } from '../utils/motion';
+import { SectionWrapper } from '../higher-order-component';
 
 const ServiceCard = ({ index, title, icon }) => {
   return (
-    <Tilt className="xs:w-[250px] w-full">
+    <Tilt className='xs:w-[250px] w-full'>
       <motion.div
-        variants={fadeIn("right", "spring", 0.5 * index, 0.75)}
-        className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"
+        variants={fadeIn('right', 'spring', 0.5 * index, 0.75)}
+        className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
       >
         <div
           options={{ max: 45, scale: 1, speed: 450 }}
-          className="bg-tertary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col"
+          className='bg-tertary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
         >
-          <img src={icon} alt={title} className="w-16 h-16 object-contain" />
+          <img src={icon} alt={title} className='w-16 h-16 object-contain' />
 
-          <h3 className="text-white text-[20px] font-bold text-center">
+          <h3 className='text-white text-[20px] font-bold text-center'>
             {title}
           </h3>
         </div>
@@ -37,8 +37,8 @@ const About = () => {
       </motion.div>
 
       <motion.p
-        className="mt-4 text-secondary text-[18px] max-w-3xl leading-[30px] text-justify"
-        variants={fadeIn("", "", 0.1, 1)}
+        className='mt-4 text-secondary text-[18px] max-w-3xl leading-[30px] text-justify'
+        variants={fadeIn('', '', 0.1, 1)}
       >
         I got into tech by playing around with HTML, CSS, and JavaScript. It
         started as a hobby but quickly became my passion. At first, I wasn't
@@ -51,10 +51,8 @@ const About = () => {
         interfaces with React. I'm always eager to learn and adapt, constantly
         pushing my own boundaries.
       </motion.p>
-      <div className="mt-20 flex flex-wrap gap-10">
-        {services.map((service, index) => (
-          <ServiceCard key={service.title} index={index} {...service} />
-        ))}
+      <div className='mt-20 flex flex-wrap gap-10'>
+        <hr />
       </div>
       {/* <div>
         <h2 className="personalFactsHeader">some personal facts</h2>
@@ -71,4 +69,4 @@ const About = () => {
   );
 };
 
-export default SectionWrapper(About, "about");
+export default SectionWrapper(About, 'about');
