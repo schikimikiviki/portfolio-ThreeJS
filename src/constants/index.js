@@ -24,6 +24,7 @@ import {
   cvGerman,
   cvEnglish,
   nu,
+  linux,
 } from '../assets';
 
 export const navLinks = [
@@ -63,11 +64,6 @@ const technologies = [
     name: 'React JS',
     icon: reactjs,
   },
-
-  // {
-  //   name: "Tailwind CSS",
-  //   icon: tailwind,
-  // },
   {
     name: 'Node JS',
     icon: nodejs,
@@ -80,18 +76,14 @@ const technologies = [
     name: 'Three JS',
     icon: threejs,
   },
-  // {
-  //   name: "git",
-  //   icon: git,
-  // },
   {
     name: 'spring',
     icon: spring,
   },
-  {
-    name: 'wordpress',
-    icon: wordpress,
-  },
+  // {
+  //   name: 'wordpress',
+  //   icon: wordpress,
+  // },
   {
     name: 'tomcat',
     icon: tomcat,
@@ -103,6 +95,10 @@ const technologies = [
   {
     name: 'phpmyadmin',
     icon: phpmyadmin,
+  },
+  {
+    name: 'linux',
+    icon: linux,
   },
 ];
 

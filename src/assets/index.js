@@ -20,6 +20,7 @@ import wordpress from './tech/wordpress.png';
 import tomcat from './tech/tomcat.png';
 import postgre from './tech/postgre.png';
 import phpmyadmin from './tech/phpmyadmin.png';
+import linux from './tech/linux.png';
 
 import easyname from './company/easyname.png';
 import itsc from './company/itsc.png';
@@ -65,4 +66,5 @@ export {
   cvEnglish,
   cvGerman,
   nu,
+  linux,
 };
