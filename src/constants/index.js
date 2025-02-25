@@ -126,6 +126,8 @@ const experiences = [
       'Development of the existing internal CMS',
       'Projects with Preact, Node.js and Express.js',
       'Linux system administration',
+      'Creation of a custom Ubuntu-based OS',
+      'Bash scripting',
     ],
   },
   {
